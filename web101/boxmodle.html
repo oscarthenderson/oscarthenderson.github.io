@@ -1,0 +1,63 @@
+<!--display.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /*    tag selector */
+    div {
+      border: solid;
+      height: 100px;
+      width: 100px;
+    }
+
+    /*    class selector */
+    p.inline-block {
+      display: inline-block;
+      border: solid red;
+      width: 100px;
+      height: 100px;
+    }
+
+    span {
+      border: solid blue;
+      font-size: 100px;
+      /*      width: 100px;*/
+      /*      height: 200px;*/
+    }
+  </style>
+</head>
+
+<body>
+  <!--  block, inline-block, inline -->
+  <!--  ul>li*3 -->
+  <ul>block
+    <li>width: width of the page</li>
+    <li>height: 0</li>
+    <li>can change width and height</li>
+    <li>cannot put on the same line</li>
+  </ul>
+
+  <div></div>
+  <div></div>
+
+  <ul>inline-block
+    <li>width:0</li>
+    <li>height:0</li>
+    <li>can change width and height</li>
+  </ul>
+  <!--  p.inline-block*2-->
+  <p class="inline-block"></p>
+  <p class="inline-block"></p>
+
+  <ul>inline
+    <li>width: 0 by default, it depends on its content</li>
+    <li>height: font-size</li>
+    <li>cannot change width and height</li>
+  </ul>
+  <span>text&nbsp;</span>
+  <span>text&nbsp;</span>
+
+
+</body></html>

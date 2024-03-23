@@ -1,2 +1,0 @@
-# oscarthenderson.github.io
-OMEGA 
