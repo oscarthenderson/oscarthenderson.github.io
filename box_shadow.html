@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box_shadow.html</title>
+    <style>
+        div {
+
+            /*border: solid;*/
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 50px;
+            box-shadow: 0px 0px 5px 9px gray;
+            background-color: deepskyblue;
+            transition: 1s;
+
+        }
+
+
+        div:hover {
+            box-shadow: 0px 0px 0px 34px black;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='btn'></div>
+    <script>
+        let blue = true;
+        btn.addEventListener('click', function() {
+            if (blue === true) {
+                btn.style.backgroundColor = 'red';
+                blue = false;
+            } else {
+                btn.style.backgroundColor = 'deepskyblue';
+                blue = true;
+            }
+        });
+    </script>
+</body></html>
