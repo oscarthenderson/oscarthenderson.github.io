@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>responsive_desin.html</title>
+    <style>
+        div {
+            border: solid;
+            height: 100px;
+            font-size: 80px;
+            background: lime;
+            margin-bottom: 30px;
+
+        }
+
+        @media all and (min-width:768px) {
+            div {
+                background-color: blue;
+                width: 40%;
+                display: inline-block;
+            }
+
+        }
+
+        @media all and (min-width:992px) {
+            div {
+                background-color: red;
+                width: 32%;
+            }
+        }
+
+        @media all and (min-width:1200px) {
+            div {
+                background-color: pink;
+                width: 15%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- a skill to display web page prperly in different size of screen: tv, dektop, pad,mobile-->
+    <main>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </main>
+</body></html>
