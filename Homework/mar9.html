@@ -35,8 +35,9 @@
             font-family: sans-serif;
             font-size: 20px;
         }
+
         div#bow {
-                        background-color: ;
+            background-color: ;
             border: ;
             text-align: center;
             color: rgb(11, 49, 72);
@@ -84,6 +85,14 @@
             display: inline-block;
             border: solid white;
             width: 100px;
+        }
+
+        ht {
+            display: inline-block;
+            border: solid rgb(11, 49, 72);
+            width: 1px;
+            background-color: rgb(11, 49, 72);
+            height: 10;
 
         }
 
@@ -98,13 +107,35 @@
             border-radius: 10px;
             margin: 30px;
         }
-        div#About {
-            
-        }
-        hr{
+
+        div#About {}
+
+        hr {
             background-color: rgb(11, 49, 72);
         }
 
+        @media all and (min-width:768px) {
+            img {
+                background-color: blue;
+                width: 40%;
+                display: inline-block;
+            }
+
+        }
+
+        @media all and (min-width:992px) {
+            img {
+                background-color: red;
+                width: 32%;
+            }
+        }
+
+        @media all and (min-width:1200px) {
+            img {
+                background-color: pink;
+                width: 15%;
+            }
+        }
     </style>
 </head>
 
@@ -125,28 +156,35 @@
         <b>
             <h1>PORTFOLIO</h1>
         </b>
-        <hr><i class="fa-solid fa-star"></i>
-        <hr>
-        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
-        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
-        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="">
-        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
-        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
-        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
+        <ht><i class="fa-solid fa-star"></i>
+            <ht>
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
     </div>
 
     <div id='BoB'>
-       <div id='bow'>       <center><h1>ABOUT</h1></center>
-               </b>
-        <hr><i class="fa-solid fa-star"></i>
-        <hr></div>
+        <div id='bow'>
+            <center>
+                <h1>ABOUT</h1>
+            </center>
+            </b>
+            <hr><i class="fa-solid fa-star"></i>
+            <hr>
+        </div>
         Frelancer is a free bootstraptheme created by Start Bootsrap.The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
     </div>
     <br>
     <div id='BoB'>
-       <center><h1></h1></center>
-               </b>
-        <hr><center><i class="fa-solid fa-star"></center></i>
+        <center>
+            <h1></h1>
+        </center>
+        </b>
+        <hr>
+        <center><i class="fa-solid fa-star"></center></i>
         <hr>
         <br>
         You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
@@ -155,6 +193,4 @@
 
 
 
-</body>
-
-</html>
+</body></html>
