@@ -7,29 +7,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
+        }
+        .seporator {
+            text-align: center;
+        }
+        .seporator hr {
+            display: inline-block;
+            width: 114px;
+            height: 4px;
+            border: none;
+            background-color: white;
+            border-radius: 5px;
+        }
 
+        .seporator i {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 30px;
+            color: white;
+        }
+        .dark i {
+            color: rgb(11, 49, 72);
+        }
+        .dark hr {
+            background-color: rgb(11, 49, 72);}
+        
+        body {
             margin: 0;
         }
 
         div#name {
             background-color: turquoise;
             height: 580px;
-            width: ;
             text-align: center;
             font-size: 25px;
             color: white;
             font-family: sans-serif;
-            display: inline-block;
-
-
-
         }
 
-        div#cow {
-            background-color: ;
-            border: ;
-            height: 2200px;
-            width: ;
+        div#img {
             text-align: center;
             color: rgb(11, 49, 72);
             font-family: sans-serif;
@@ -38,7 +54,6 @@
 
         div#bow {
             background-color: ;
-            border: ;
             text-align: center;
             color: rgb(11, 49, 72);
             font-family: sans-serif;
@@ -47,37 +62,33 @@
 
         div#Orin {
             background-color: turquoise;
-            border: ;
             height: 200px;
-            width: ;
         }
 
         div#BoB {
             background-color: turquoise;
             height: 100;
-            width: ;
             text-align: 100px right left;
             font-size: 20px;
             font-family: sans-serif;
             color: white;
-            border: 10px;
+            border: 10px;}
+
 
         }
 
         div#bjth {
             background-color: rgba(18, 88, 130, 1);
             height: 600px;
-            width: ;
         }
 
         div#Norah {
             background-color: rgba(39, 47, 67, 0.97);
             height: 100px;
-            width: ;
         }
 
         #name img {
-            width: 250px;
+            width: 320px;
 
         }
 
@@ -87,19 +98,7 @@
             width: 100px;
         }
 
-        ht {
-            display: inline-block;
-            border: solid rgb(11, 49, 72);
-            width: 1px;
-            background-color: rgb(11, 49, 72);
-            height: 10;
 
-        }
-
-        .fa-star {
-            margin: 10px;
-            display: inline-block;
-            width: 50px;
         }
 
         img {
@@ -141,56 +140,55 @@
 
 <body>
     <div id='name'>
-
-
         <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="">
         <b>
             <h1>START BOOTSTRAP</h1>
         </b>
-        <hr><i class="fa-solid fa-star"></i>
+
         <hr>
+        <i class="fa-solid fa-star"></i>
+            <hr>
         <h5>Graphic Artist-Web Designer-Illustrator</h5>
     </div>
 
-    <div id='cow'>
+    <div id='img'>
         <b>
             <h1>PORTFOLIO</h1>
         </b>
-        <ht><i class="fa-solid fa-star"></i>
-            <ht>
-                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
-                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
-                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="">
-                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
-                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
-                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
+        <div class='dark seporator'>
+        <hr>
+        <i class="fa-solid fa-star"></i>
+            
+            <hr>
+        </div >
+        <div id='cow'>
+        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
+        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="">
+        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
+        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
+        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
     </div>
 
     <div id='BoB'>
         <div id='bow'>
-            <center>
-                <h1>ABOUT</h1>
-            </center>
-            </b>
+            <h1>ABOUT</h1>
             <hr><i class="fa-solid fa-star"></i>
             <hr>
         </div>
-        Frelancer is a free bootstraptheme created by Start Bootsrap.The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+        <p>
+            Frelancer is a free bootstraptheme created by Start Bootsrap.The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+        </p>
+        <p>
+            You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+        </p>
+        
     </div>
-    <br>
-    <div id='BoB'>
-        <center>
-            <h1></h1>
-        </center>
-        </b>
-        <hr>
-        <center><i class="fa-solid fa-star"></center></i>
-        <hr>
-        <br>
-        You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
-    </div>
+    contact me 
 
 
 
 
 </body></html>
+
+
