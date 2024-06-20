@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        aside {
+            background-color: lime;
+            width: 150px;
+            text-align: center;
+            position: fixed;
+            height: 100vh;
+        }
+
+        main {
+            padding-left: 150px;
+        }
+
+        sectionW {
+            height: 400px;
+            border: solid;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside>
+        <img src="" alt="">
+        <ul>
+            <li><a href="#about">about</a></li>
+            <li>experience</li>
+            <li>education</li>
+            <li>skills</li>
+            <li>interests</li>
+            <li><a href="#awards">awards</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <!--    section#about>h1{about}^+section#experience>h1{experience}^+section#education>h1{education}^+section#skills>h1{skills}^+section#interests>h1{interests}^+section#awards>h1{awards}-->
+        <sectionW id="about">
+            <h1>about</h1>
+        </sectionW>
+        <sectionW id="experience">
+            <h1>experience</h1>
+        </sectionW>
+        <sectionW id="education">
+            <h1>education</h1>
+        </sectionW>
+        <sectionW id="skills">
+            <h1>skills</h1>
+        </sectionW>
+        <sectionW id="interests">
+            <h1>interests</h1>
+        </sectionW>
+        <sectionW id="awards">
+            <h1>awards</h1>
+        </sectionW>
+    </main>
+
+</body></html>
